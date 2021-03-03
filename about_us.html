@@ -1,177 +1,230 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <!-- Mobile Specific Meta -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Rare Print</title>
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-    <!-- Google Fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
-    <!---Bootstrap Css----->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+     <!-- Font Awesome -->
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet"/>
+   <!-- Google Fonts -->
+   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
+   <!-- MDB -->
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.2.0/mdb.min.css" rel="stylesheet"/>
     <!--Custom CSS--->
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
 <!--Navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark sticky-top bg-dark">
-    <a class="mx-5" href="index.html">
-        <img src="img/Logopit_1596353902579.png" height="75" width="75">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon" style="color: white"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <a class="nav-link text-white" href="about_us.html">About Us</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-white" href="#services">Services</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-white" href="#">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-white" href="#contact">Contact Us</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-white" href="#contact">Payment Info</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-white  waves-light" href="https://api.whatsapp.com/send?phone=+919637318960" target="_blank">
-                    <img src="img/whatsapp.svg" height="20" width="20"> +91 9637318960
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-white waves-effect waves-light">
-                    <img src="img/gmail.png" height="20" width="20"> sales@rareprint.in
-                </a>
-            </li>
-        </ul>
+<nav class="navbar navbar-expand-lg fixed" style="background: #021554f0">
+    <!-- Container wrapper -->
+    <div class="container-fluid">
+        <a class="logo" href="index.html">
+            <img src="img/Logopit_1596353902579.png" loading="lazy">
+        </a>
+        <a class="name text-white row"><span style="font-size: 25px">Rareprint</span><br><span style="font-size: 15px;">Product Quality is our Priority</span></a>
+        <div class="menu-wrap">
+            <input type="checkbox" class="toggler">
+            <div class="hamburger">
+                <div></div>
+            </div>
+            <div class="menu">
+                <div>
+                    <div>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about_us.html">About US</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#contact">Contact Us</a></li>
+                            <li><a href="#index.html/payment-info">Payment Info</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Collapsible wrapper -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="about_us.html">ABOUT US</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">PORTFOLIO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#contact">CONTACT US</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#contact">PAYMENT INFO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white  waves-light" href="https://api.whatsapp.com/send?phone=+919637318960" target="_blank">
+                        <img src="img/whatsapp.svg" height="20" width="20"> +91 9637318960
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white waves-effect waves-light">
+                        <img src="img/gmail.png" height="20" width="20"> sales@rareprint.in
+                    </a>
+                </li>
+            </ul>
+        </div>
     </div>
-    <hr>
 </nav>
 
-<section>
-    <img class="d-block w-100" src="img/computer-3343887_1920.jpg" style="height: 300px;margin-top: -5px">
+<div class="second-nav">
+    <ul class="nav">
+        <li class="nav-item">
+            <a class="nav-link active" href="#">
+                <img src="img/gmail.png" height="15" width="15"> sales@rareprint.in
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#"><img src="img/whatsapp.svg" height="15" width="15"> +91 9637318960</a>
+        </li>
+    </ul>
+</div>
+
+<div class="p-5 text-center bg-image" style="background-image: url('https://mdbootstrap.com/img/Photos/Others/img (50).jpg');height: 500px;">
+    <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
+        <div class="d-flex justify-content-center align-items-center h-100">
+        <div class="text-white">
+            <h1 class="mt-5"><strong>
+                We Provide You with Top-Quality Printed Products<br>
+                 @ Affordable Prices.</strong></h1>
+            <a class="btn btn-outline-light btn-lg" href="#who" role="button">Learn More</a>
+        </div>
+        </div>
+    </div>
+</div>
+
+<section class="p-5" id="who">
     <div class="container">
-        <div class="row my-5">
-            <div class="col">
-                <!--Accordion wrapper-->
-                <div class="accordion md-accordion accordion-1" id="accordionEx23" role="tablist">
-                    <div class="card">
-                        <div class="card-header black  z-depth-1" role="tab" id="heading96">
-                            <h5 class="text-uppercase mb-0 py-1">
-                                <a class="white-text font-weight-bold" data-toggle="collapse" href="#collapse96" aria-expanded="true"
-                                   aria-controls="collapse96">
-                                    Order, Deliver & Returns
-                                </a>
-                            </h5>
-                        </div>
-                        <div id="collapse96" class="collapse show" role="tabpanel" aria-labelledby="heading96"
-                             data-parent="#accordionEx23">
-                            <div class="card-body">
-                                <p class="">Etiam finibus ullamcorper libero sed vestibulum. Morbi elementum, augue nec ullamcorper consectetur, ante enim varius risus, vitae dapibus felis velit sit amet sapien. Quisque eros enim, congue ac ante in, eleifend consectetur quam.</p>
+        <h1 class="tittle text-uppercase text-center mb-lg-5 mb-3 inner-tittle py-md-3"><strong>Who We Are</strong></h1>
+            <div class="row">
+                    <div class="col-md-6">
+                        <div class="text-center">
+                                <h3 class="my-3 text-uppercase"><span class="fa fa-clone" aria-hidden="true"></span> Creative Design</h3>
+                                <p class="px-lg-3">We make best quality prescription stickers and envelopes, you won't find anywhere else.</p>
+                            <div class="bottom-gd fea active p-2" data-aos="fade-left">
+                                <h3 class="my-3 text-uppercase"><span class="fa fa-crosshairs" aria-hidden="true"></span> 100% Responsive</h3>
+                                <p>We at Rare Print Committed to deliver best quality product to our coustomer. Our products are much affordable than anyone you find in market, also we deliver the product right at your doorstep.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="card">
-                        <div class="card-header black z-depth-1" role="tab" id="heading97">
-                            <h5 class="text-uppercase mb-0 py-1">
-                                <a class="collapsed font-weight-bold white-text" data-toggle="collapse" href="#collapse97"
-                                   aria-expanded="false" aria-controls="collapse97">
-                                    GIFT CERTIFICATE & REGISTRY
-                                </a>
-                            </h5>
-                        </div>
-                        <div id="collapse97" class="collapse" role="tabpanel" aria-labelledby="heading97"
-                             data-parent="#accordionEx23">
-                            <div class="card-body">
-                                <p>Donec posuere ligula id magna tincidunt interdum. Sed sit amet risus a erat aliquet interdum non non ante. Ut accumsan a eros sed dapibus. Aenean faucibus mi in diam porta, sit amet tempor purus vulputate. Praesent quis.</p>
-                            </div>
-                        </div>
+                    <div class="col-md-6">
+                        <img src="img/accomplishment-agreement-business-1249158.jpg" style="width: 100%;height: 100%">
                     </div>
+            </div>
+    </div>
+</section>
+<section class="bg-light py-5 text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+                <div class="card">
+                    <img src="img/sanket.jpeg" class="img-fluid">
+                    <div class="card-title"><strong style="color: #0b51c5">Founder & CEO</strong></div>
+                            <h5 class="card-title"><strong>Sanket Pimpalkar</strong></h5>
+                </div>
+            </div>
+            <div class="col-md-10">
+                <h2><strong>CEO's Talk: </strong></h2>
+                <p>I started rareprint.in because one day I observed that so many people are not able to understand medicine doses written by doctor and they endup getting help from others. So by recognizing this problem I created 'Prescription Stickers' on which doses are printed in understandable language. After launching Prescription Stickers in hometown Chandrapur, I got huge success. Now customers are demanding Prescription Stickers from all around India. I've now increased product line from stickers to envelopes, visiting cards, keychain and other innovated printing material. Now my aim is to innovate new problem solving product and to make rareprint.in a leader in Indian Printing Industry.</p>
+            </div>
+        </div>            
+        <div class="inner-sec-wthree speak">
+            <h1 class="tittle text-uppercase"><strong>Our Great Team</strong></h1>
+            <div class="row mt-lg-5 mt-4">
+                <div class="col">
                     <div class="card">
-                        <div class="card-header black z-depth-1" role="tab" id="heading98">
-                            <h5 class="text-uppercase mb-0 py-1">
-                                <a class="collapsed font-weight-bold white-text" data-toggle="collapse" href="#collapse98"
-                                   aria-expanded="false" aria-controls="collapse98">
-                                    OTHER QUESTIONS
-                                </a>
-                            </h5>
+                        <div class="team-img mt-5">
+                            <img src="img/mahesh.jpg" class="img-fluid rounded-circle" alt="user-image" style="width: 150px;height: 150px">
                         </div>
-                        <div id="collapse98" class="collapse" role="tabpanel" aria-labelledby="heading98"
-                             data-parent="#accordionEx23">
-                            <div class="card-body">
-                                <p>Curabitur commodo, orci et pharetra iaculis, nibh lorem ultricies libero, sit amet rutrum enim neque tristique ante. Vivamus a lorem non dolor maximus mollis. Vivamus vel diam eu tellus vestibulum pharetra. Pellentesque sed ultricies est.</p>
-                            </div>
+                        <div class="card-body">
+                            <h5 class="card-title"><strong style="color: #0b51c5">CTO / Developer</strong></h5>
+                            <h4><strong>Mahesh Gowardipe</strong></h4>
                         </div>
                     </div>
                 </div>
-                <!--Accordion wrapper-->
-            </div>
-            <div class="col text-center">
-                <h1><span>WHO WE ARE</span></h1>
-                <p>Phasellus vel sollicitudin est. Etiam dapibus tellus odio vitae augue nulla ut velit</p>
-                <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Integer vulputate lacus sollicitudin lectus efficitur, et convallis turpis egestas. Mauris porttitor. Curabitur eu imperdiet massa.</p>
-                <button type="button" class="btn btn-outline-dark waves-effect">See More</button>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="bg-light py-5">
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <h5><i class="fab fa-affiliatetheme"></i> RECYCLED</h5>
-                <p>Lorem ipsum dolor sit amet adipiscing, eiusmod tempor incididunt labore dolore magna aliqua enim minim veniam.</p>
-            </div>
-            <div class="col">
-                <h5><i class="fab fa-affiliatetheme"></i> Branding</h5>
-                <p>Lorem ipsum dolor sit amet adipiscing, eiusmod tempor incididunt labore dolore magna aliqua enim minim veniam.</p>
-            </div>
-            <div class="col">
-                <h5><i class="fab fa-affiliatetheme"></i> Printing</h5>
-                <p>Lorem ipsum dolor sit amet adipiscing, eiusmod tempor incididunt labore dolore magna aliqua enim minim veniam.</p>
-            </div>
-            <div class="col">
-                <h5><i class="fab fa-affiliatetheme"></i> Packaging</h5>
-                <p>Lorem ipsum dolor sit amet adipiscing, eiusmod tempor incididunt labore dolore magna aliqua enim minim veniam.</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                <h5><i class="fab fa-affiliatetheme"></i> RECYCLED</h5>
-                <p>Lorem ipsum dolor sit amet adipiscing, eiusmod tempor incididunt labore dolore magna aliqua enim minim veniam.</p>
-            </div>
-            <div class="col">
-                <h5><i class="fab fa-affiliatetheme"></i> Branding</h5>
-                <p>Lorem ipsum dolor sit amet adipiscing, eiusmod tempor incididunt labore dolore magna aliqua enim minim veniam.</p>
-            </div>
-            <div class="col">
-                <h5><i class="fab fa-affiliatetheme"></i> Printing</h5>
-                <p>Lorem ipsum dolor sit amet adipiscing, eiusmod tempor incididunt labore dolore magna aliqua enim minim veniam.</p>
-            </div>
-            <div class="col">
-                <h5><i class="fab fa-affiliatetheme"></i> Packaging</h5>
-                <p>Lorem ipsum dolor sit amet adipiscing, eiusmod tempor incididunt labore dolore magna aliqua enim minim veniam.</p>
+                <div class="col">
+                    <div class="card">
+                        <div class="team-img mt-5">
+                            <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg" class="img-fluid rounded-circle" alt="user-image" style="width: 150px;height: 150px">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title"><strong style="color: #0b51c5">Managing and Operation</strong></h5>
+                            <h4><strong>Rinku Ghosh</strong></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="team-img mt-5">
+                            <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(3).jpg" class="img-fluid rounded-circle" alt="user-image" style="width: 150px;height: 150px">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title"><strong style="color: #0b51c5">Sales Manager</strong></h5>
+                            <h3><strong>Tabassum Sheikh</strong></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="team-img mt-5">
+                            <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(20).jpg" class="img-fluid rounded-circle" alt="user-image" style="width: 150px;height: 150px">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title"><strong style="color: #0b51c5">Designer</strong></h5>
+                            <h3><strong>Anosh Dilpe</strong></h3>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </section>
-<!-- End contact-page Area -->
+<!--//team -->
+
+<!-- Process -->
+<section class="text-center bg-primary text-white">
+        <h1 class="py-5">OUR SERVICE / PROCESS</h1>
+        <div class="row px-2">
+            <div class="col-md-2">
+                <h5><i class="fab fa-affiliatetheme"></i> Affordablity</h5>
+                <p>Why are our prices so low? We believe in innovation. We constantly invest in new machines and technology, enabling us to print in large volumes and guarantee you the best prices.</p>
+            </div>
+            <div class="col-md-2">
+                <h5><i class="fas fa-thumbs-up"></i> Quality</h5>
+                <p>We guarantee an extremely high-quality service: high-definition printing, the best finishes when cutting and assembling products, and the very best materials.</p>
+            </div>
+            <div class="col-md-2">
+                <h5><i class="fas fa-fighter-jet"></i> Speed</h5>
+                <p>We print in 24 hours and ship your orders with the most reliable couriers, and can even offer 24-hour delivery. You can choose the exact delivery date when ordering.</p>
+            </div>
+            <div class="col-md-2">
+                <h5><i class="fab fa-first-order-alt"></i> Order</h5>
+                <p>You can order the product online or you can drop your product description at query section, our team will contct you as soon as possible. You can also ping us on our social media handles.</p>
+            </div>
+            <div class="col-md-2">
+                <h5><i class="fas fa-print"></i> Printing</h5>
+                <p>We starts Printing your product as soon as we get order from you. Normally printing takes 1-2 days depending on your quantity. We always make sure that printing ramps quickly so that we can ship the product as soon as possible.</p>
+            </div>
+            <div class="col-md-2">
+                <h5><i class="fas fa-truck"></i> Delivery</h5>
+                <p>we Deliver our product all over India. We use best and fast Courier service for the delivery, so that you don't have to wait for long and get your product in good condition.</p>
+            </div>
+    </div>
+</section>
+
 <a onclick="topFunction()" id="myBtn" class="btn-floating btn-lg btn-warning"><i class="fas fa-arrow-up"></i></a>
 
 <!-- Start contact-page Area -->
-<section class="contact-page-area bg-light" id="contact">
+<section class="contact-page-area bg-light my-5" id="contact">
     <div class="container">
-        <h1 class="text-center pt-5" style="font-size: 3rem;"><u>Contact us</u></h1>
+        <h1 class="text-center" style="font-size: 3rem;"><u>Contact us</u></h1>
         <div class="row mt-5">
-            <div class="col-lg-4 d-flex flex-column address-wrap">
+            <div class="col-md-6 d-flex flex-column address-wrap">
                 <div class="single-contact-address d-flex flex-row">
                     <div class="contact-details">
                         <h5>Chandrapur (Maharashtra), India</h5>
@@ -193,35 +246,27 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-8">
+            <div class="col-md-6">
                 <div class="form-group">
-                    <form id="myForm" method="post" class="contact-form text-right form-area">
-                        <div class="row mt-5">
-                            <div class="col-lg-6 form-group">
-                                <input name="name" placeholder="Enter your name" onfocus="this.placeholder = ''"
-                                       onblur="this.placeholder = 'Enter your name'"
-                                       class="common-input mb-10 form-control" type="text" aria-required="true">
-                                <br>
-                                <input name="email" placeholder="Enter email address"
-                                       pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$"
-                                       onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'"
-                                       class="common-input mb-10 form-control" aria-required="true" type="email">
-                                <br>
-                                <input name="subject" placeholder="Enter your subject" onfocus="this.placeholder = ''"
-                                       onblur="this.placeholder = 'Enter your subject'"
-                                       class="common-input mb-10 form-control" aria-required="true" type="text">
-                            </div>
-                            <div class="col-lg-6 form-group">
-                                <textarea class="common-textarea form-control" name="message" placeholder="Messege"
-                                          onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messege'"
-                                          aria-required="true"></textarea>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="alert-msg" style="text-align: left;"></div>
-                                <button class="btn btn-danger btn-rounded" style="float: right;" type="submit"
-                                        name="submit">Send Message
-                                </button>
-                            </div>
+                    <form id="myForm" method="post" action="contact_db.php" class="contact-form text-right form-area">
+                        <div class="form-outline mb-4">
+                            <input name="name" type="text" id="form1Example1" class="form-control"/>
+                            <label class="form-label" for="form1Example1">Enter your name</label>
+                        </div>
+                        <div class="form-outline mb-4">
+                            <input name="subject" type="text" id="form1Example2" class="form-control"/>
+                            <label class="form-label" for="form1Example2">Enter your subject</label>
+                        </div>
+                        <div class="form-outline mb-4">
+                            <input name="number" type="text" id="form1Example2" class="form-control"/>
+                            <label class="form-label" for="form1Example2">Enter your number</label>
+                        </div>
+                        <div class="form-outline mb-4">
+                            <textarea name="message" class="form-control" id="form1Example3" rows="3"></textarea>
+                            <label class="form-label" for="form1Example3">Message</label>
+                        </div>
+                        <div class="text-center">
+                            <button class="btn btn-danger" type="submit" name="submit">Send Message <i class="fa fa-location-arrow"> </i></button>
                         </div>
                     </form>
                 </div>
@@ -251,18 +296,17 @@
         </div>
     </div>
 </section>
-<footer class=" text-center  text-white" style="background: #000">
+<footer class=" text-center  text-white bg-dark">
     <div class="row text-center">
         <div class="col-md-6">
-            <p>@ Copyright 2020 - Rare Print</p>
+            <p>@ Copyright 2021 - Rare Print</p>
         </div>
-        <div class="col-md-3">
-            <a href="#"><p><b>Designed by: Mahesh Gowardipe</b></p></a>
-        </div>
-        <div class="col-md-3">
-            <i class="fab fa-instagram mx-2"></i>
-            <i class="fab fa-facebook mx-2"></i>
-            <i class="fab fa-linkedin mx-2"></i>
+        <div class="col-md-6">
+            <a href="https://api.whatsapp.com/send?phone=+919637318960" target="_blank">
+                 <img src="img/whatsapp.svg" height="20" width="20">
+            </a>
+            <a href="#"><img src="img/facebook.png" height="20" width="20"> </a>
+            <a href="#"><img src="img/instagram.png" height="20" width="20"> </a>
         </div>
     </div>
 </footer>
@@ -288,10 +332,7 @@
     }
 </script>
 
-<script src="https://smtpjs.com/v3/smtp.js"></script>
-
-<!-- Popper.js first, then Bootstrap JS -->
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+<!-- MDB -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.2.0/mdb.min.js"></script>
 </body>
 </html>
