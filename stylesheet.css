@@ -34,13 +34,16 @@ nav ul li a:hover{
 #products .col-md-3{
     margin-bottom: 0;
 }
-#products .card-body{
-    color: white;
-}
-#products a{
+#products h5{
+    font-weight: bold;
     color: #000;
 }
-
+.banner img{
+    height: 100%;
+}
+#slider-img img{
+    height: 300px;
+}
 @media (max-width: 576px){
     .logo img{
         margin-left: 0;
@@ -190,6 +193,9 @@ nav ul li a:hover{
 
     #products .col-md-3{
         margin-bottom: 5px;
+    }
+    .banner img{
+        height: 100%;
     }
 }
 
